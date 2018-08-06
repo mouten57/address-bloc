@@ -4,7 +4,7 @@ describe("MenuController", () => {
     beforeEach(() => {
         this.menu = new MenuController();
     }); 
-    describe("getContactCount()", () => {
+    describe("#getContactCount()", () => {
         it("should return 0 when no contacts are in the book", ()=>{
             expect(this.menu.getContactCount()).toBe(0);
         });
