@@ -1,0 +1,19 @@
+For the following situations, determine which search approach to use and why would you take that approach. Write your answers in the submission box below.
+
+__Performing a search of a sorted by name IRS database for a taxpayer name.__
+
+ * I would use a binary search. It is sorted so binary search would be very fast and effective.
+
+
+__Searching through an unsorted list containing the days of the weekend__
+
+ * It's small and unsorted, so I would use an iterative search.
+
+__Given a list of the planets in the Milky Way in ascending order by size, search for a planet with a given size.__
+
+* Again, it's sorted, so I would use a binary search.
+
+
+__Searching for a checkpoint name in an unsorted list of Bloc checkpoints__
+
+* Unsorted, so I would use an iterative search. Or I would sort them first and then use a binary search.
